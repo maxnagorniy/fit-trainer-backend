@@ -1,6 +1,10 @@
 # dependencies
 /node_modules
 
+.gitignore
+node_modules
+
+
 # testing
 /coverage
 
