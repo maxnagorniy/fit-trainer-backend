@@ -68,6 +68,17 @@ router.post('/signin', function(req, res, next){
         });
 });
 
+// router.get('/usersList', function(req, res) {
+//     User.find({}, function(err, users) {
+//         const userMap = {};
+//
+//         users.forEach(function(user) {
+//             userMap[user._id] = user;
+//         });
+//
+//         res.send(userMap);
+//     });
+// });
 
 
 module.exports = router;

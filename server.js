@@ -24,8 +24,6 @@ app.get('/checking', function(req, res, next){
     });
 });
 
-
-
 app.use('/user', user);
 
 app.listen(PORT, function(){
